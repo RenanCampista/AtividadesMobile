@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SessionActivity"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="40dp"
+        android:text="@string/title"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:textSize="15sp"
+        android:textColor="@color/white">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_guardar"
+        android:backgroundTint="@color/blue_light"
+        android:layout_marginBottom="50dp"/>
+</RelativeLayout>

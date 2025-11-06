@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplicativo2</string>
+    <string name="hint_name">Digite seu nome</string>
+    <string name="title">Frases de gatos e cachorrros</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_gera_frase">GERAR OUTRA FRASE</string>
+</resources>
